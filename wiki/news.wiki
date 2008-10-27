@@ -1,5 +1,3 @@
-= NEWS =
-
 === Version 0.17 (2008-10-27) ===
 
 ==== Visible changes: ====
