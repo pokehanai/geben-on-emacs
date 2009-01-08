@@ -1,3 +1,12 @@
+=== Version 0.20 (2009-01-08) ===
+
+  ==== _Redesigned._ ====
+  ==== _From this release GEBEN does not require an external DBGp client program._ ====
+
+  * changed:
+    * GEBEN always mirrors debuggee script files under `geben-mode`. When you need to open the original script file to edit, hit any unbound keys of geben-mode and GEBEN asks you to open one. If you respond `yes` then GEBEN attempts to visit the file via [http://www.gnu.org/software/tramp/ TRAMP].
+    * More, many things.
+
 === Version 0.19 (2008-11-06) ===
 
   * fixed: Emacs may not be able to exit by exception.
@@ -72,13 +81,13 @@
   * custom face added:
     * geben-backtrace-fileuri
     * geben-backtrace-lineno
-  * fixed: compiling error on Emacs 21.4 in `defface' definition.
-  * changed: renamed DBGp client's buffer name to `*GEBEN process*.
+  * fixed: compiling error on Emacs 21.4 in `defface` definition.
+  * changed: renamed DBGp client's buffer name to `*GEBEN process*`.
 
 === Version 0.12 (2008-10-08) ===
 
 ==== Visible changes: ====
-  * added: New argument QUIT to `geben' command. It can be specified by the prefix arg, as typing like `M-x C-u geben'. This asks executed GEBEN to quit.
+  * added: New argument QUIT to `geben` command. It can be specified by the prefix arg, as typing like `M-x C-u geben`. This asks executed GEBEN to quit.
   * Now GEBEN sets/unsets breakpoint even in off session state.
   * fixed: Make GEBEN do not send commands while off session state.
   * fixed: Increasing breakpoints by entering debugging session.
@@ -90,7 +99,7 @@
 === Version 0.10 (2008-10-07) ===
 
 ==== Incompatible changes: ====
-  * Removed dependencies on `CEDET' package.
+  * Removed dependencies on `CEDET` package.
 
 ==== Visible changes: ====
   * fixed: Improved line-no breakpoint handling.
