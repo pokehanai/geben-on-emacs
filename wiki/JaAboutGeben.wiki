@@ -1,4 +1,5 @@
 #summary GEBENとは
+#sidebar JaTOC
 
 = GEBENとは =
 
