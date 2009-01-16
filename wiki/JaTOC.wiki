@@ -1,7 +1,3 @@
-#summary GEBENマニュアル
-
-= GEBENマニュアル =
-
   * [JaAboutGeben GEBENとは]
   * [JaInstalling GEBENのインストール手順]
   * [JaStarting GEBENでデバッグを始める]
@@ -11,4 +7,3 @@
   * [JaContextVariables 変数の値を調べる]
   * [JaStackTrace 呼び出し履歴を見る]
   * [JaFinish GEBENを終了する]
-
