@@ -1,0 +1,25 @@
+#summary GEBENのインストール
+#sidebar JaTOC
+
+= GEBENのインストール =
+
+== 必要な環境 ==
+
+[http://www.gnu.org/software/emacs/emacs.html Emacs] Version 22.1以上
+
+== インストール手順 ==
+
+=== Linux ===
+
+ # [http://code.google.com/p/geben-on-emacs/downloads/list GEBENのダウンロードページ]から最新版をダウンロードします。
+ # {{{~/src> tar xfz geben-x.xx.tar.gz}}} 
+ # {{{~/src> cd geben-x.xx}}}
+ # {{{~/src/geben-x.xx> make}}}
+ # {{{~/src/geben-x.xx> sudo make install}}}<br/>(管理者権限がない場合またはインストール先を指定したい場合)<br/>{{{~/src/geben-x.xx> make SITELISP=/path/to/install install}}}
+
+=== その他環境 ===
+ # [http://code.google.com/p/geben-on-emacs/downloads/list GEBENのダウンロードページ]から最新版をダウンロードし、任意の作業ディレクトリに展開(解凍)します。
+ # 展開されたディレクトリに移動します。
+ # `dbgp.el` をバイトコンパイルします。
+ # `geben.el` をバイトコンパイルします。
+ # `dbgp.elc`, `geben.elc` と `tree-widget` ディレクトリ全体をEmacsの`site-lisp` もしくはEmacsの変数 `load-path` に示されたディレクトリにコピーします。
