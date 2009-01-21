@@ -1,5 +1,5 @@
   * [JaAboutGeben GEBENとは]
-  * [JaInstalling GEBENのインストール手順]
+  * [JaInstalling GEBENのインストール]
   * [JaStarting GEBENでデバッグを始める]
   * [JaContinuation スクリプトを走らせる（ステップ実行など）]
   * [JaSourceEditing スクリプトを修正する]
