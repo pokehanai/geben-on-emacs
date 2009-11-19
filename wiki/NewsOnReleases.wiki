@@ -1,3 +1,8 @@
+=== Version 0.25 (2009-11-19) ===
+
+  * improved:
+    * to `geben-proxy` now you can specify any fixed port number to which incoming debugging session is bound. Also `geben-dbgp-default-proxy` is updated to have the default  port number.
+
 === Version 0.24 (2009-05-09) ===
 
   * new commands added:
